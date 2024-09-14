@@ -1,0 +1,21 @@
+ <style>
+    table {
+      border-collapse: collapse;
+      width: 50%;
+      border: 2px solid red; 
+    }
+    th, td {
+      border: 1px solid rgb(145, 255, 0); 
+      padding: 1px;
+      text-align: left;
+    }
+    img {
+      border: 2px solid red; /
+    }
+  
+    {
+    background-color: teal;
+    color: black;
+       }
+
+  </style>
