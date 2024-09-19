@@ -1,28 +1,30 @@
-
-#dzimbzbeeriz {
+#div1 {
   border-collapse: collapse;
   width: 50%;
   border: 2px solid rgb(51, 0, 255); 
   border-radius: 10px;
-  background-color: brown;
+  background-color: rgb(19, 176, 113);
 }
+
 #div2 {
-    border-collapse: collapse;
-    width: 50%;
-    border: 2px solid rgb(51, 0, 255); 
-    border-radius: 10px;
-    background-color: rgb(145, 19, 176);
-  }
+  border-collapse: collapse;
+  width: 50%;
+  border: 2px solid rgb(51, 0, 255); 
+  border-radius: 10px;
+  background-color: rgb(19, 176, 113);
+}
+
 th, td {
   border: 1px solid rgb(145, 255, 0); 
   padding: 1px;
   text-align: left;
 }
+
 img {
-  border: 2px solid red; /
+  border: 2px solid red;
 }
 
 a {
-background-color: teal;
-color: black;
-   }
+  background-color: teal;
+  color: black;
+}
