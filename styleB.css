@@ -1,0 +1,43 @@
+#div1 {
+    border-collapse: collapse;
+    width: 100%;
+    border: 2px solid rgb(0, 0, 0); 
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  #div2 {
+    border-collapse: collapse;
+    width: 100%;
+    border: 2px solid rgb(0, 0, 0); 
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+  }
+
+  #div3 {
+    border-collapse: collapse;
+    width: 100%;
+    border: 2px solid rgb(9, 21, 22); 
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+  }
+
+  #div4 {
+    border-collapse: collapse;
+    width: 100%;
+    border: 2px solid rgb(255, 255, 255); 
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  th, td {
+    border: 5px solid rgb(255, 255, 255); 
+    padding: 10px;
+    text-align: left;
+  }
+  
+  img {
+    border: 2px solid red;
+  }
+  
+  
