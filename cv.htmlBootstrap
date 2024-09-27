@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <title>CV LEBEDEL TOM</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="styleB.css"/>
+</head>
+
+<body class="container">
+  <div class="row my-4">
+    <div class="col-md-8">
+      <h1>Coordonnées</h1>
+      <p>Tom Lebedel</p>
+      <p>Date de naissance: 13/10/2005</p>
+    </div>
+    <div class="col-md-4 text-center">
+      <img src="photo.jpg" alt="Photo de Tom" class="img-fluid" width="70" height="70">
+    </div>
+  </div>
+
+  <div id="div1">
+    <h2>Etudes</h2>
+    <table class="table table-bordered">
+      <tr>
+        <td>2020-2023</td>
+        <td>Bac pro système numérique Sacre Coeur</td>
+      </tr>
+      <tr>
+        <td>2023-2024</td>
+        <td>Mention complémentaire Lannion</td>
+      </tr>
+      <tr>
+        <td>2024-2025</td>
+        <td>BTS SIO Rabelais</td>
+      </tr>
+    </table>
+  </div>
+
+  <div id="div2">
+    <h2>Compétences Informatique</h2>
+    <table class="table table-bordered">
+      <tr>
+        <td>Système d'exploitation</td>
+        <td>Windows 10, 11, Debian</td>
+      </tr>
+      <tr>
+        <td>Langages</td>
+        <td>HTML, CSS</td>
+      </tr>
+      <tr>
+        <td>IDE</td>
+        <td>Visual Studio</td>
+      </tr>
+    </table>
+  </div>
+
+  <div id="div3">
+    <h2>Expériences Professionnelles</h2>
+    <table class="table table-bordered">
+      <tr>
+        <td>2022</td>
+        <td>Emploi chez un mytiliculteur</td>
+      </tr>
+      <tr>
+        <td>2023</td>
+        <td>Emploi chez un maraîcher</td>
+      </tr>
+      <tr>
+        <td>2023-2024</td>
+        <td>Emploi étudiant à McDonald's</td>
+      </tr>
+    </table>
+  </div>
+
+  <div id="div4">
+    <h2>Divers</h2>
+    <ul>
+      <li>Sport</li>
+      <li>Jeux vidéo</li>
+    </ul>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
