@@ -9,7 +9,37 @@
   <link rel="stylesheet" type="text/css" href="styleB.css"/>
 </head>
 
+
 <body class="container">
+    
+
+    <div class="jumbotron text-center" style="margin-bottom:0">
+        <h1>CV</h1>   
+      </div>
+    
+<!-- Grey with black text -->
+<nav class="navbar navbar-expand bg-dark navbar-dark">
+    <ul class="navbar-nav">
+      <li class="nav-item Coordonnées">
+        <a class="nav-link" href="#">Coordonnées</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-Etudes" href="#">Etudes</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-Compétences Informatique" href="#">Compétences Informatique</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link Expériences Professionnelles" href="#">Expériences Professionnelles</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link Divers" href="#">Divers</a>
+      </li>  
+    </ul>
+  </nav>
+
+  
+
   <div class="row my-4">
     <div class="col-md-8">
       <h1>Coordonnées</h1>
@@ -17,7 +47,7 @@
       <p>Date de naissance: 13/10/2005</p>
     </div>
     <div class="col-md-4 text-center">
-      <img src="photo.jpg" alt="Photo de Tom" class="img-fluid" width="70" height="70">
+      <img src="photo.jpg" alt="Photo Tom" class="img-fluid" width="70" height="70">
     </div>
   </div>
 
@@ -76,15 +106,30 @@
   </div>
 
   <div id="div4">
+ <table>
     <h2>Divers</h2>
     <ul>
       <li>Sport</li>
       <li>Jeux vidéo</li>
     </ul>
+ </table>
   </div>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
+ <div class="container">
+    <h2>Pour me contacter</h2>
+    <form action="/action_page.php">
+      <div class="form-group">
+        <label for="usr">Name:</label>
+        <input type="text" class="form-control" id="usr" name="username">
+      </div>
+      <div class="form-group">
+        <label for="pwd">Password:</label>
+        <input type="password" class="form-control" id="pwd" name="password">
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+
 </body>
 </html>
